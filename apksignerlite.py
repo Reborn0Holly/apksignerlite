@@ -12,7 +12,7 @@ class APKSignerApp:
         self.root.geometry("800x600")
         
         # Инициализация стилей Material Design
-        self.style = Style(theme="cosmo")  # Выбор темы Material Design
+        self.style = Style(theme="cosmo")
         
         # Основной фрейм
         self.main_frame = Frame(self.root, padding=10)
